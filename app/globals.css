@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* globals.css */
+@font-face {
+  font-family: "MyInter";
+  src: url("/fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+html { font-family: "MyInter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
